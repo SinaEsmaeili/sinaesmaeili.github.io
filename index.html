@@ -1,156 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--Styles-->
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/animate.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script>
-            (function (i, s, o, g, r, a, m) {
+    <!--Styles-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date(); a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-            ga('create', 'UA-100767377-1', 'auto');
-            ga('send', 'pageview');
+        ga('create', 'UA-100767377-1', 'auto');
+        ga('send', 'pageview');
 
-        </script>
- 
-    </head>
+    </script>
 
-    <body>
-        <!--Header section-->
-        <section class="jumbotron text-center">
-            <div class="container">
-                <img id="profile-pic" src="images/me.jpg" width="200" height="200" class="img-circle animated slideInDown">
-                <h1 class="animated fadeInLeft">Sina HajiEsmaeili</h1>
-                <h2 id="mytitle" class="animated fadeInLeft">Computer Science Student</h2>
+</head>
 
-                <div id="socialrow" class="row text-center animated fadeIn">
-                        <a href="https://github.com/SinaEsmaeili" title="Github"><i class="fa fa-github fa-4x" aria-hidden="true"></i> </a>
-                        <a href="https://www.linkedin.com/in/sinahajiesmaeili/" title="LinkedIn"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true" style="margin-left: 2rem"></i></a>
-                </div>
-            </div>
-            <span class="scroll-btn animated fadeInUp">
-                <a href="#">
-                    <span class="mouse">
-                        <span>
-                        </span>
-                    </span>
-                </a>
-                <i id="scrolldown" class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </section>
-
-        <!--About and skills section-->
-        <section id="about">
-            <div class="container">
-                <h2 class="subtitle">About me</h2>
-                <p class="content">
-                    I'm a computer science student currently in my 3rd year at Carleton University <br> 
-                    and I enjoy making web apps, websites, mobile apps, and bots
-                </p>
-
-                <br><br>
-
-                <h2 class="subtitle skills">Skills</h2>
-
-                <div class="row text-center">
-                    <div id="dev-icons">
-                        <a target="_blank" href="http://www.oracle.com/technetwork/java/javase/overview/index.html"><i class="devicons devicon-java-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/C%2B%2B"><i class="devicons devicon-cplusplus-line colored"></i></a>
-                        <a target="_blank" href="https://developer.mozilla.org/bm/docs/Web/JavaScript"><i class="devicons devicon-javascript-plain colored"></i></a>
-                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><i class="devicons devicon-html5-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"><i class="devicons devicon-css3-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://nodejs.org/en/"><i class="devicons devicon-nodejs-plain colored"></i></a>
-                        <a target="_blank" href="https://git-scm.com/"><i class="devicons devicon-git-plain colored"></i></a>
+<body>
+    <div class="container center">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-sm-12 col-12">
+                <div class="c-card">
+                    <div class="container">
+                        <img id="profile" class="animated zoomIn" src="images/me.jpg" width="120" height="120">
+                        <div class="sub">
+                            <p class="sub-text" id="nametag">Sina HajiEsmaeili</p>
+                            <p class="sub-text">Computer Science Student</p>
+                            <p class="sub-text">Web App Developer</p>
+                        </div>
                         <br>
-                        <a target="_blank" href="https://expressjs.com/"><i class="devicons devicon-express-original colored"></i></a>
-                        <a target="_blank" href="https://getbootstrap.com/"><i class="devicons devicon-bootstrap-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://angular.io/"><i class="devicons devicon-angularjs-plain colored"></i></a>
-                        <a target="_blank" href="https://www.ubuntu.com/"><i class="devicons devicon-ubuntu-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://www.docker.com/"><i class="devicons devicon-docker-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://aws.amazon.com/"><i class="devicons devicon-amazonwebservices-plain-wordmark colored"></i></a>
-                        <a target="_blank" href="https://www.typescriptlang.org/"><i class="devicons devicon-typescript-plain colored"></i></a>
-                        <div class="" style="margin-top: 5rem;">
-                            <a href="resume/SinaResume.pdf">More can be found on my resume</a>
+                        <br>
+                        <br> 
+                        <div><p class="lt-header" style="font-weight: bold"></p></div>
+                        <div class="shell-wrap">
+                            <div class="shell-top-bar">
+                                    <div class="buttons">
+                                        <div class="closebtn"></div>
+                                        <div class="minimize"></div>
+                                        <div class="zoom"></div>
+                                    </div>
+                                <p>sinaesmaeili.github.io</p>    
+                            </div>
+                            <ul class="shell-body">
+                                <li>Javascript</li>
+                                <li>Angular</li>
+                                <li>Node.js</li>
+                                <li>HTML5/CSS3</li>
+                                <li>Express.js</li>
+                                <li>Typescript</li>
+                                <li>Git</li>
+                                <li>Docker</li>
+                                <li>Java</li>
+                                <li>C/C++</li>
+                                <li>Python</li>
+                                <li>More can be found on my linkedin: <a href="https://www.linkedin.com/in/sinahajiesmaeili/" target="_blank">https://www.linkedin.com/in/sinahajiesmaeili/</a></li>
+                            </ul>
                         </div>
+                        <br><br>
+                        <a class="github-button" href="https://github.com/sinaesmaeili" target="_blank" data-size="large" aria-label="My GitHub">My Github</a>    
                     </div>
-                    
-                </div>
-                <br><br><br><br><br><br><br><br><br><br>
-            </div>
-        </section>
-        
-        <!--Projects section-->
-        <section id="projects">
-            <div class="container-fluid text-center">
-                <h2 class="subtitle">Projects</h2>
-                <div id="project-row" class="row">
-                    <div class="col-lg-3 col-md-4">
-                        <div class="card animated slideInDown">
-                            <h3 class="card-title">Premier League Transfers 2016/17 Android App</h3>
-                            <a class="btn btn-primary" href="https://github.com/SinaEsmaeili/EPL-Transfers-2016-17-App">
-                                <i class="fa fa-github fa-lg"></i>&nbsp View on Github</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="card animated slideInDown">
-                            <h3 class="card-title">Crow: 2D LIBGDX Android Game</h3>
-                            <a class="btn btn-primary" href="https://github.com/SinaEsmaeili/CrowGame" style="margin-top: 1.8em;">
-                                <i class="fa fa-github fa-lg"></i>&nbsp View on Github</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="card animated slideInDown">
-                            <h3 class="card-title">My Personal Website</h3>
-                            <a class="btn btn-primary" href="https://github.com/SinaEsmaeili/sinaesmaeili.github.io" style="margin-top: 3.8em;">
-                                <i class="fa fa-github fa-lg"></i>&nbsp View on Github</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4">
-                        <div class="card animated slideInDown">
-                            <h3 class="card-title">Node.js automated bot for discord</h3>
-                            <a class="btn btn-primary" href="https://github.com/SinaEsmaeili/OneWatermelonBot" style="margin-top: 1.8em;">
-                                <i class="fa fa-github fa-lg"></i>&nbsp View on Github</a>
-                        </div>
-                    </div>
-                    
                 </div>
             </div>
+        </div>
+    </div>
 
-            <br><br><br><br><br><br><br>
-        </section>
+    <footer class="text-center" style="margin-top: 12rem; font-weight: bold">
+        <p> © 2017 Sina HajiEsmaeili, All rights reserved</p>
+    </footer>
 
-        <footer class="text-center">
-            <p> © 2017 Sina HajiEsmaeili, All rights reserved</p>
-        </footer>
+    <a href="https://github.com/sinaesmaeili/sinaesmaeili.github.io" target="_blank" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
-        <!--Jquery-->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <!--Bootstrap-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!--Scrollreveal-->
-        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-        <!--Particle.js-->
-        <script src="particles.js-master/particles.min.js"></script>
-        <script src="js/script.js"></script>
-
-        <script>
-        window.sr = ScrollReveal();
-            
-        sr.reveal('#dev-icons', { duration: 3000, distance: '300px', origin: 'left' });
-        sr.reveal('.card', { duration: 1000});
-        </script>
-    </body>
+    <script src="js/bundle.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
 
 </html>
