@@ -1,6 +1,6 @@
 # sinaesmaeili.github.io
 
-# Browserify
+## Browserify
 Bundle js scripts into HTML
 
 ```
