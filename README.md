@@ -1,7 +1,7 @@
 # sinaesmaeili.github.io
 
 ## Browserify
-Bundle js scripts into HTML
+Bundle js scripts that are imported in HTML
 
 ```
 npm run build-js
