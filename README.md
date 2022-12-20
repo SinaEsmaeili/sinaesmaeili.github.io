@@ -4,6 +4,6 @@
 Bundle js scripts that are imported in HTML
 
 ```
-npm run build-js
+npm run build
 ```
 

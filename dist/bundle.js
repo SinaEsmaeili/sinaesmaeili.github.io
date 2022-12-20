@@ -1,16 +1,4 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
-const Typed = require('typed.js');
-
-var typed = new Typed('.lt-header', {
-    strings: ["Languages and Technologies"],
-    typeSpeed: 50,
-    backSpeed: 50,
-    showCursor: false,
-    backDelay: 5000,
-    startDelay: 1000,
-    loop: true
-});
-},{"typed.js":2}],2:[function(require,module,exports){
 /*!
  * 
  *   typed.js - A JavaScript Typing Animation Library
@@ -1047,4 +1035,16 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ ])
 });
 ;
-},{}]},{},[1]);
+},{}],2:[function(require,module,exports){
+const Typed = require('typed.js');
+
+var typed = new Typed('.lt-header', {
+    strings: ["Languages and Technologies"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    showCursor: false,
+    backDelay: 5000,
+    startDelay: 1000,
+    loop: true
+});
+},{"typed.js":1}]},{},[2]);
